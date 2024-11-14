@@ -13,6 +13,12 @@ schema:
   dependencies:
     - xhup_reverse
 
+# Emoji
+emoji:
+  option_name: emoji
+  opencc_config: emoji.json
+  inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
+
 # 使用雾凇默认的标点符号
 punctuator:
   import_preset: default
@@ -32,6 +38,9 @@ switches:
   - name: short_hints  #滤镜
     reset: 1
     states: [ 🙈, 🐵 ]
+  - name: emoji
+    states: [ 💀, 😄 ]
+    reset: 1
 
 engine:
   processors:
@@ -54,15 +63,23 @@ engine:
     - punct_translator
     - table_translator                          # 码表
     - lua_translator@*xhup/date_translator      # Lua 日期
+    - lua_translator@lunar              # 农历
     - lua_translator@*xhup/time_translator      # Lua 时间
     - lua_translator@*xhup/shortcut_translator  # Lua 直通车
     - reverse_lookup_translator@xhup_reverse
     - history_translator@history                # 重复上屏
+    - table_translator@custom_phrase    # 自定义短语 custom_phrase.txt
+    - lua_translator@unicode            # Unicode
+    - lua_translator@number_translator  # 数字、金额大写
   filters:
     - simplifier
     - simplifier@simplification
     - simplifier@short_hints #滤镜
+    - simplifier@emoji                              # Emoji
     - uniquifier
+
+# Lua 配置：农历的触发关键字
+lunar: nl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
 
 # 拼写设定
 speller:
@@ -147,6 +164,10 @@ recognizer:
     reverse_lookup: "[a-z`]*`+[a-z`]*"
     punct: ""
     expression: "^=.*$"
+    unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
+    number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
+    gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
+
 
 menu:
   page_size: 5      # 候选项数
