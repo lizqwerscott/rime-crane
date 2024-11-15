@@ -18,5 +18,7 @@ import_tables:
   - "xhup_dicts/xhup.full.code.words"   # 2.3 全码词全
   # - "xhup_dicts/xhup.symbols"           # 符号
   - "xhup_dicts/xhup.full.code.chars"   # 全码字
+  - "xhup_dicts/xhyx.soguo" # soguo 词库
+  - "xhup_dicts/xhyx.soguo.wllxc" # soguo 网络流行语词库
   - "xhup_dicts/xhup.user"              # 用户码表
 ...
