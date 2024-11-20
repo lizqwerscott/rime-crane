@@ -1,0 +1,33 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 音乐相关
+
+---
+name: music
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+延音线	yyxm	18.0
+不协和音程	bxhyi	42.0
+点弦	dmxm	0.0
+纯律	iylv	287.0
+中央音	vyyb	0.0
+滑奏	hxzz	9.0
+单调音乐	ddyy	0.0
+打品	dapb	121.0
+连音线	lyxm	19.0
+歌芮拉	grla	18.0
+复调	fudn	871.0
+琶音	payb	365.0
+复调音乐	ftyl	240.0
+平行五度	pxwd	13.0
+瑞声	rvug	37.0
+符头	futz	35.0
+符干	fugj	48.0
+无调性	wdxk	214.0
+协和音程	xhyi	42.0
+还原记号	hyjh	7.0
+拿火	naho	150.0
+延音	yjyb	203.0

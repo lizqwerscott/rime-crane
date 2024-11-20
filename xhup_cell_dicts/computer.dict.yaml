@@ -1,0 +1,15 @@
+# Rime dictionary
+# encoding: utf-8
+# 计算机 互联网相关
+#
+---
+name: computer
+version: "2024-07-19"
+sort: by_weight
+...
+会邀	hvyc	0.0
+弱依赖	ryld	4.0
+发版	fabj	111.0
+出参	iucj	10.0
+强依赖	qyld	38.0
+父级目录	fjml	0.0

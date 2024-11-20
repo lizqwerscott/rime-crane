@@ -1,0 +1,17 @@
+# Rime dictionary
+# encoding: utf-8
+# 自媒体
+#
+---
+name: media
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+完读率	wdlv	10.0
+完读	wjdu	6.0
+橙瓜	iggx	33.0
+大神码字	dumz	3.0
+飞卢	fwlu	240.0
+七猫	qimc	30.0
+橙光	iggl	456.0
