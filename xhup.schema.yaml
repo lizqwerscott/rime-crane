@@ -13,12 +13,6 @@ schema:
   dependencies:
     - xhup_reverse
 
-# Emoji
-emoji:
-  option_name: emoji
-  opencc_config: emoji.json
-  inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
-
 # 使用雾凇默认的标点符号
 punctuator:
   import_preset: default
@@ -38,9 +32,6 @@ switches:
   - name: short_hints  #滤镜
     reset: 1
     states: [ 🙈, 🐵 ]
-  - name: emoji
-    states: [ 💀, 😄 ]
-    reset: 1
 
 engine:
   processors:
@@ -72,7 +63,6 @@ engine:
     - simplifier
     - simplifier@simplification
     - simplifier@short_hints #滤镜
-    - simplifier@emoji                              # Emoji
     - uniquifier
 
 # 拼写设定
