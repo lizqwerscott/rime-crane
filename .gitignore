@@ -4,6 +4,7 @@
 
 # 过滤 build 文件夹下的文件
 /build/*
+!/build/.gitkeep
 
 # 过滤个人配置
 *.userdb/
