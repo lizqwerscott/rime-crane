@@ -5,12 +5,14 @@ recipe:
   args:
   description: >-
     完整安装、更新
+# xhup_aux.schema.yaml 和 xhup_aux.dict.yaml 是小鹤双拼反引号形码辅助的成对依赖。
 install_files: >-
   cn_dicts/*.*
   en_dicts/*.*
   opencc/*.*
   build/.gitkeep
   lua/*.*
+  lua/auto_space/*.*
   lua/cold_word_drop/*.*
   default.yaml
   squirrel.yaml
@@ -23,6 +25,8 @@ install_files: >-
   double_pinyin_mspy.schema.yaml
   double_pinyin_sogou.schema.yaml
   double_pinyin_flypy.schema.yaml
+  xhup_aux.schema.yaml
+  xhup_aux.dict.yaml
   double_pinyin_ziguang.schema.yaml
   double_pinyin_jiajia.schema.yaml
   symbols_v.yaml
