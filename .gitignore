@@ -20,3 +20,11 @@ others/script/scel2txt/scel/*
 rime_console
 rime_deployer
 rime_patch
+
+# 官方清风便携版原始程序包与压缩包
+小鹤音形_清风便携版*/
+*.zip
+*.7z
+
+# 本地测试工具二进制
+others/script/test_engine
