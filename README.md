@@ -73,24 +73,42 @@ http://www.keyboard-layout-editor.com/#/
 |-|-|
 |ojf|〔简/繁〕切换|
 
-## 长期维护词库
+## 词库说明（更新至官方清风版 v1.26.9c）
 
-```
-- 小鹤音形的主码表：文件 "xhup.dict.yaml"，其中按需加载的码表分别如下：
-  - "xhup_dicts/xhup.user.top"          # 用户置顶码表：可以按需自行添加置顶词汇
-  - "xhup_dicts/xhup.primary"           # -0- 首选字词
-  - "xhup_dicts/xhup.secondary"         # 1.1 次选字词
-  - "xhup_dicts/xhup.whimsicality"      # 1.1 随心码
-  - "xhup_dicts/xhup.fast.symbols"      # 1.2 快符
-  # - "xhup_dicts/xhup.secondary.simple"   # 二重简码：默认开启的是一简词（二重简码和一简词尽量只开一个）
-  - "xhup_dicts/xhup.single.code"       # 2.1 一简词：可以根据自己的情况选择使用一简词还是二重简码
-  - "xhup_dicts/xhup.off-table"         # 2.2 表外字
-  - "xhup_dicts/xhup.full.code.words"   # 2.3 全码词
-  # - "xhup_dicts/xhup.symbols"           # 符号
-  # - "xhup_dicts/xhup.full.code.chars"   # 全码字：在四码时出现在候选词中，不熟练时可开启增加拆词熟练度（默认关闭），应该尽量练习有简打简。
-  - "xhup_dicts/xhup.user"              # 用户码表
+本方案码表已全面切换至**官方小鹤音形清风便携版（WindInput）**官方挂接源，实现无损保序同步：
+- **词汇扩充**：主码表首选字词扩充至 68,572 条（净增 1 万多条官方新词）。
+- **官方调频同步**：同步最新调频字（如 `la` 拉、`lom` 骆）与最新快符键位规范（`;p` 单书名号 `〈〉`）。
+- **词库模式对齐**：支持官方熟手模式、常规模式与初学模式，可在 `xhup.dict.yaml` 中按需开启/关闭。
+
+```yaml
+# 小鹤音形的主码表：文件 "xhup.dict.yaml"，其中按需加载的码表分别如下：
+# --- 用户优先层 ---
+- "xhup_dicts/xhup.user.top"          # 用户置顶码表：可以按需自行添加置顶词汇
+- "xhup_dicts/xhup.user"              # 用户自用词库
+
+# --- ① 熟手模式基础库（默认启用）---
+- "xhup_dicts/xhup.primary"           # -0- 首选字词（68,572条，官方原生自然序）
+- "xhup_dicts/xhup.secondary"         # 1.1 次选字词（分类词库：次选）
+- "xhup_dicts/xhup.whimsicality"      # 1.1 随心码（分类词库：随心）
+- "xhup_dicts/xhup.off-table"         # 2.2 表外字（分类词库：表外）
+- "xhup_dicts/xhup.single.code"       # 2.1 一简词（一简次选，26个单字/词）
+- "xhup_dicts/xhup.fast.symbols"      # 1.2 快符（分号引导符号）
+
+# --- ② 常规模式扩展（已有简码的全码词，可按需开启）---
+- "xhup_dicts/xhup.full.code.words"   # 2.3 全码词（约500条）
+
+# --- ③ 初学模式扩展（全码字与生僻字，默认关闭，初学可开启）---
+# - "xhup_dicts/xhup.full.code.chars"   # 全码字（已有简码，全码有其他字词，约1650条）
+# - "xhup_dicts/xhup.rare.chars"        # 生僻字（约500条）
+
+# --- 可选附加库 ---
+# - "xhup_dicts/xhup.secondary.simple"  # 二简次选（66个单字，备选）
+# - "xhup_dicts/xhup.symbols"           # 符号与部首字根
+# - "xhup_dicts/xhup.emoji"             # 斜杠引导表情
+# - "xhup_dicts/xhup.ok"                # ok引导两分/三分拆字拼字库（8.8万条）
 ```
 
+> 注：维护人员或自动化 Agent 请参阅 [AGENTS.md](./AGENTS.md) 了解官方清风便携版码表逆向同步工作流与测试规范。
 ## 使用说明
 
 建议备份原先配置，清空配置目录。
