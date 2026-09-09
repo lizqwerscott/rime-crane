@@ -4,12 +4,12 @@
 schema:
   schema_id: xhup
   name: 小鹤音形
-  version: "v10.9v"
+  version: "v1.26.9c"
   author:
     - 方案设计：何海峰 <flypy@qq.com>
     - 方案调整：水猫 <kchen0x@gmail.com>
   description: |
-    小鹤音形主码表
+    小鹤音形（对齐官方清风便携版 v1.26.9c 规范）
   dependencies:
     - xhup_reverse
 

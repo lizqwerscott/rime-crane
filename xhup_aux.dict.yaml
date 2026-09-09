@@ -9,16 +9,16 @@
 
 ---
 name: xhup_aux
-version: "10.9"
+version: "v1.26.9c"
 sort: original
 use_preset_vocabulary: false
 ...
-々	bd
 〇	vv
 㑇	re
 㑊	rd
 㑎	re
 㒼	nr
+㓥	xd
 㕮	kx
 㗎	km
 㘎	kw
@@ -31,6 +31,7 @@ use_preset_vocabulary: false
 㝵	oc
 㞎	ub
 㞗	uq
+㞞	ur
 㟃	ek
 㠇	ey
 㠓	en
@@ -50,8 +51,10 @@ use_preset_vocabulary: false
 㬚	ow
 㭎	mx
 㭕	ms
+㮟	mm
 㮾	dm
 㰀	mu
+㱔	vx
 㳇	dx
 㳘	de
 㳚	du
@@ -92,6 +95,7 @@ use_preset_vocabulary: false
 䗴	iz
 䜣	yj
 䝙	vx
+䠍	zy
 䢺	ie
 䢼	ce
 䣘	xe
@@ -137,15 +141,12 @@ use_preset_vocabulary: false
 两	ad
 严	yp
 丧	un
-丨	pp
 个	rl
 丫	bl
-丬	pp
 中	ll
 丰	al
 串	ll
 临	la
-丶	pp
 丸	pd
 丹	pa
 为	dd
@@ -153,7 +154,6 @@ use_preset_vocabulary: false
 丼	jd
 丽	ad
 举	xl
-丿	pp
 乂	pn
 乃	vp
 久	pn
@@ -203,9 +203,7 @@ use_preset_vocabulary: false
 亘	aa
 亚	ay
 些	ve
-亞	aa
 亟	la
-亠	pp
 亡	wv
 亢	wj
 交	wx
@@ -225,7 +223,7 @@ use_preset_vocabulary: false
 亸	wl
 亹	wq
 人	pn
-亻	pp
+亽	rd
 亿	rv
 什	ru
 仁	re
@@ -236,6 +234,7 @@ use_preset_vocabulary: false
 仆	rb
 仇	rj
 仉	rj
+今	av
 今	rv
 介	rl
 仌	rr
@@ -284,6 +283,7 @@ use_preset_vocabulary: false
 伙	rh
 会	rs
 伛	rx
+伝	rs
 伞	ru
 伟	rw
 传	rv
@@ -351,7 +351,6 @@ use_preset_vocabulary: false
 侂	rq
 侃	rv
 侄	rt
-來	mr
 侈	rx
 侉	rk
 例	rd
@@ -364,6 +363,7 @@ use_preset_vocabulary: false
 供	rb
 依	ry
 侠	rj
+価	rx
 侣	rk
 侥	rw
 侦	rr
@@ -482,7 +482,6 @@ use_preset_vocabulary: false
 傺	rx
 傻	rw
 僇	rp
-僉	rr
 僎	rb
 像	rn
 僔	rc
@@ -517,7 +516,6 @@ use_preset_vocabulary: false
 克	ue
 免	dv
 兑	be
-兒	je
 兔	dd
 兕	ae
 兖	we
@@ -526,7 +524,6 @@ use_preset_vocabulary: false
 兢	ue
 入	pn
 全	rw
-兩	ar
 八	pn
 公	bs
 六	wb
@@ -546,7 +543,6 @@ use_preset_vocabulary: false
 兽	bk
 冀	lb
 冁	bn
-冂	pp
 内	ld
 円	ka
 冇	uk
@@ -557,12 +553,11 @@ use_preset_vocabulary: false
 冏	kk
 冒	ko
 冒	oo
-冓	jz
+冓	ar
 冔	ky
 冔	oy
 冕	kv
 冕	ov
-冖	pp
 冗	bj
 写	by
 冚	be
@@ -573,7 +568,6 @@ use_preset_vocabulary: false
 冤	bd
 冥	bb
 冧	bm
-冫	pp
 冬	wd
 冮	dg
 冯	dm
@@ -581,16 +575,19 @@ use_preset_vocabulary: false
 冱	dh
 冲	dv
 决	dg
+冴	dy
 况	de
 冶	dk
 冷	ds
 冻	dd
 冼	de
 冽	dd
+净	dl
 凄	dn
 准	df
 凇	ds
 凉	dx
+凊	do
 凋	dk
 凌	dw
 减	dk
@@ -610,7 +607,6 @@ use_preset_vocabulary: false
 凯	ej
 凰	jw
 凳	vj
-凵	pp
 凶	xk
 凸	la
 凹	la
@@ -621,7 +617,6 @@ use_preset_vocabulary: false
 凿	yk
 刀	vp
 刁	va
-刂	pp
 刃	dd
 分	bd
 切	qd
@@ -686,7 +681,6 @@ use_preset_vocabulary: false
 劂	id
 劄	vd
 劈	ud
-劏	xd
 劐	cd
 劓	zd
 力	vp
@@ -726,12 +720,12 @@ use_preset_vocabulary: false
 勠	xl
 勤	nl
 勰	lx
-勹	pp
 勹	pv
 勺	bd
 勾	bs
 勿	bp
 匀	bd
+匂	bb
 包	bs
 匆	bd
 匈	bk
@@ -742,7 +736,6 @@ use_preset_vocabulary: false
 化	rb
 北	lb
 匙	ob
-匚	pp
 匜	ky
 匝	kj
 匠	kj
@@ -765,8 +758,10 @@ use_preset_vocabulary: false
 卉	uc
 半	dl
 卌	al
+卍	vl
 华	ru
 协	ub
+卐	va
 卑	pu
 卒	wu
 卓	lu
@@ -785,8 +780,6 @@ use_preset_vocabulary: false
 卤	lx
 卦	tb
 卧	ib
-卩	pp
-卫	ea
 卫	va
 卬	pe
 卮	pv
@@ -822,7 +815,10 @@ use_preset_vocabulary: false
 厨	ic
 厩	iv
 厮	ij
+厷	us
+厹	js
 去	ts
+厽	ss
 厾	vs
 县	qs
 叁	ss
@@ -925,6 +921,7 @@ use_preset_vocabulary: false
 呈	kw
 告	nk
 呋	kf
+呎	ki
 呐	kn
 呒	kw
 呓	kv
@@ -996,6 +993,7 @@ use_preset_vocabulary: false
 咸	ad
 咸	wk
 咸	xk
+咹	kn
 咺	ka
 咻	km
 咼	lk
@@ -1028,7 +1026,6 @@ use_preset_vocabulary: false
 哝	kn
 哞	kn
 哟	ku
-員	kb
 哢	kc
 哥	dk
 哦	kw
@@ -1101,6 +1098,7 @@ use_preset_vocabulary: false
 啰	kx
 啱	ku
 啲	ku
+啳	kv
 啴	kl
 啵	ky
 啶	kr
@@ -1122,7 +1120,6 @@ use_preset_vocabulary: false
 喋	km
 喎	kk
 喏	kk
-喐	ke
 喑	ko
 喔	kt
 喘	ke
@@ -1143,6 +1140,7 @@ use_preset_vocabulary: false
 喻	kd
 喽	kn
 喾	xk
+喿	km
 嗄	kw
 嗅	kq
 嗉	kx
@@ -1249,7 +1247,6 @@ use_preset_vocabulary: false
 嚼	kc
 囊	ay
 囔	ky
-囗	pp
 囚	kr
 四	ke
 囝	kz
@@ -1262,7 +1259,6 @@ use_preset_vocabulary: false
 囧	kv
 囪	pd
 囫	kw
-囬	ka
 园	ke
 困	km
 囱	pw
@@ -1282,7 +1278,6 @@ use_preset_vocabulary: false
 圊	ko
 圌	ke
 圐	kf
-圖	kk
 圙	km
 圜	ky
 土	ua
@@ -1374,6 +1369,7 @@ use_preset_vocabulary: false
 垭	ty
 垮	tk
 垯	tz
+垰	tx
 垱	te
 垲	tj
 垴	tk
@@ -1434,7 +1430,6 @@ use_preset_vocabulary: false
 堧	td
 堨	tv
 堪	tv
-堯	tw
 堰	tn
 堲	gt
 堵	to
@@ -1486,13 +1481,11 @@ use_preset_vocabulary: false
 壬	pu
 壬	qa
 壮	du
-壯	pu
 声	up
 壳	uj
 壶	uy
 壸	uy
 壹	ua
-夂	pp
 处	wb
 备	wt
 夋	sw
@@ -1518,6 +1511,7 @@ use_preset_vocabulary: false
 夭	pd
 央	lg
 夯	dl
+夰	dl
 失	pf
 夲	du
 头	dd
@@ -1526,7 +1520,6 @@ use_preset_vocabulary: false
 夹	an
 夺	dc
 夼	di
-夾	dr
 奀	bd
 奁	dx
 奂	dd
@@ -1659,7 +1652,6 @@ use_preset_vocabulary: false
 婌	ny
 婍	nk
 婕	nr
-婗	ne
 婘	nv
 婚	no
 婞	ng
@@ -1723,9 +1715,11 @@ use_preset_vocabulary: false
 嫽	nx
 嬅	nl
 嬉	nk
+嬎	nu
 嬖	un
 嬗	na
 嬛	ny
+嬢	ny
 嬥	nf
 嬬	ne
 嬲	tl
@@ -1733,7 +1727,6 @@ use_preset_vocabulary: false
 嬷	nm
 嬿	nh
 孀	no
-孃	ny
 孅	nj
 子	va
 孑	va
@@ -1760,9 +1753,9 @@ use_preset_vocabulary: false
 孰	ww
 孱	uz
 孳	bz
+孵	lz
 孺	ze
 孽	cz
-宀	pp
 宁	bd
 它	bb
 宄	bj
@@ -1846,7 +1839,6 @@ use_preset_vocabulary: false
 尜	xx
 尝	xs
 尞	dx
-尢	pp
 尢	uv
 尤	ud
 尤	yd
@@ -1891,7 +1883,6 @@ use_preset_vocabulary: false
 屣	ur
 履	uw
 屦	un
-屮	pp
 屯	av
 山	lk
 屹	eq
@@ -1917,7 +1908,6 @@ use_preset_vocabulary: false
 岜	eb
 岞	ev
 岠	ej
-岡	ke
 岢	ek
 岣	ek
 岨	eq
@@ -1936,6 +1926,7 @@ use_preset_vocabulary: false
 峂	ed
 峃	xe
 峄	el
+峇	ek
 峋	eo
 峒	ek
 峗	ev
@@ -2140,11 +2131,9 @@ use_preset_vocabulary: false
 廛	gt
 廨	gn
 廪	gx
-廴	pp
 延	zv
 廷	zr
 建	zy
-廾	pp
 廿	aa
 廿	ca
 开	ac
@@ -2181,7 +2170,6 @@ use_preset_vocabulary: false
 强	gi
 弼	gg
 彀	uy
-彐	pp
 归	le
 当	xe
 录	eu
@@ -2190,7 +2178,6 @@ use_preset_vocabulary: false
 彘	vb
 彝	vc
 彟	ey
-彡	pp
 形	kp
 彤	dp
 彦	ip
@@ -2234,7 +2221,6 @@ use_preset_vocabulary: false
 徼	iw
 徽	iw
 心	dd
-忄	pp
 必	dd
 忆	xv
 忈	ex
@@ -2467,6 +2453,7 @@ use_preset_vocabulary: false
 懿	ux
 戆	lx
 戈	ad
+戉	ad
 戊	ad
 戊	gp
 戋	ad
@@ -2513,7 +2500,6 @@ use_preset_vocabulary: false
 扉	hf
 扊	hh
 手	pl
-扌	pp
 才	ap
 扎	fv
 扑	fb
@@ -2714,6 +2700,7 @@ use_preset_vocabulary: false
 揆	ft
 揉	fm
 揍	ft
+揎	fa
 描	ft
 提	fr
 插	fj
@@ -2738,6 +2725,7 @@ use_preset_vocabulary: false
 搁	fk
 搂	fn
 搅	fe
+搊	fp
 搋	fj
 搌	fn
 搏	fc
@@ -2827,7 +2815,6 @@ use_preset_vocabulary: false
 攮	fy
 支	uy
 攰	ul
-攵	pp
 收	vw
 攸	rw
 改	jw
@@ -2873,6 +2860,7 @@ use_preset_vocabulary: false
 斟	qu
 斠	au
 斡	uu
+斢	cu
 斤	pl
 斥	pd
 斧	bj
@@ -3102,7 +3090,6 @@ use_preset_vocabulary: false
 杭	mj
 杯	mb
 杰	mh
-東	an
 杲	om
 杳	mo
 杵	mw
@@ -3145,6 +3132,7 @@ use_preset_vocabulary: false
 枷	mk
 枸	mk
 枹	ms
+枼	um
 柁	mb
 柃	ms
 柄	mb
@@ -3286,6 +3274,7 @@ use_preset_vocabulary: false
 棫	ma
 棬	mv
 森	mm
+棯	mx
 棰	mi
 棱	mw
 棵	mg
@@ -3310,6 +3299,7 @@ use_preset_vocabulary: false
 椤	mx
 椪	my
 椭	mo
+椮	mp
 椰	me
 椴	my
 椸	my
@@ -3448,7 +3438,6 @@ use_preset_vocabulary: false
 歧	vy
 歪	bv
 歪	pv
-歲	vu
 歹	ax
 死	db
 歼	dq
@@ -3533,7 +3522,6 @@ use_preset_vocabulary: false
 氰	qo
 氲	qm
 水	ln
-氵	pp
 氶	ln
 永	dn
 氼	ur
@@ -3910,6 +3898,7 @@ use_preset_vocabulary: false
 滥	dm
 滦	dm
 滧	dw
+滨	db
 滩	df
 滪	dr
 滫	do
@@ -3994,6 +3983,7 @@ use_preset_vocabulary: false
 濋	dr
 濑	dr
 濒	dr
+濛	dn
 濛	du
 濞	dl
 濠	du
@@ -4019,7 +4009,6 @@ use_preset_vocabulary: false
 灏	dr
 灞	do
 火	dr
-灬	pp
 灭	ah
 灯	hd
 灰	uh
@@ -4048,6 +4037,7 @@ use_preset_vocabulary: false
 炟	ha
 炣	hk
 炤	hk
+炩	hs
 炫	hy
 炬	hj
 炭	eh
@@ -4123,6 +4113,7 @@ use_preset_vocabulary: false
 煜	hl
 煞	dh
 煟	ho
+煠	hm
 煤	hm
 煦	oh
 照	oh
@@ -4198,6 +4189,7 @@ use_preset_vocabulary: false
 牛	pl
 牝	nb
 牟	sn
+牠	ny
 牡	nt
 牢	bn
 牤	nw
@@ -4226,7 +4218,6 @@ use_preset_vocabulary: false
 犟	gn
 犨	rn
 犬	dd
-犭	pp
 犮	ud
 犯	qv
 犰	qj
@@ -4236,6 +4227,7 @@ use_preset_vocabulary: false
 犸	qm
 犹	qy
 犼	qv
+犽	qy
 狁	qe
 狂	qw
 狃	qi
@@ -4383,7 +4375,6 @@ use_preset_vocabulary: false
 珪	wt
 珫	we
 班	ww
-珮	wj
 珰	we
 珲	wi
 珵	ww
@@ -4556,6 +4547,7 @@ use_preset_vocabulary: false
 畤	tc
 略	tk
 畦	tt
+畩	ty
 番	pt
 畬	rt
 畯	tw
@@ -4564,6 +4556,7 @@ use_preset_vocabulary: false
 畸	tk
 畹	tv
 畺	aa
+畾	tt
 畿	yt
 疁	tp
 疃	tl
@@ -4573,7 +4566,6 @@ use_preset_vocabulary: false
 疏	vv
 疐	ur
 疑	br
-疒	pp
 疔	bd
 疖	be
 疗	bl
@@ -4744,7 +4736,6 @@ use_preset_vocabulary: false
 眍	ox
 眙	ok
 眚	uo
-眞	bb
 真	ub
 眠	om
 眢	xo
@@ -4760,7 +4751,6 @@ use_preset_vocabulary: false
 眸	on
 眺	od
 眼	og
-眾	sr
 着	yo
 睁	ol
 睃	ow
@@ -4778,6 +4768,7 @@ use_preset_vocabulary: false
 睥	ou
 睦	ot
 睨	oe
+睩	ou
 睫	or
 睬	om
 睹	oo
@@ -4951,7 +4942,6 @@ use_preset_vocabulary: false
 礴	uc
 礵	uo
 示	ex
-礻	pp
 礼	pv
 礽	pn
 社	pt
@@ -4998,6 +4988,7 @@ use_preset_vocabulary: false
 禊	pd
 禋	pt
 福	pt
+禑	py
 禒	pu
 禔	pr
 禘	pj
@@ -5249,6 +5240,7 @@ use_preset_vocabulary: false
 籥	vc
 米	dm
 籴	rm
+籺	mq
 类	md
 籼	me
 籽	mz
@@ -5277,6 +5269,7 @@ use_preset_vocabulary: false
 粽	mx
 精	mo
 粿	mg
+糀	mb
 糁	mp
 糅	mm
 糇	mu
@@ -5316,7 +5309,6 @@ use_preset_vocabulary: false
 繇	px
 纂	vx
 纛	fx
-纟	pp
 纠	sl
 纡	sy
 红	sg
@@ -5474,12 +5466,14 @@ use_preset_vocabulary: false
 网	kx
 罔	kw
 罕	bg
+罖	sd
 罗	sx
 罘	sb
 罚	sd
 罟	sk
 罡	sv
 罢	ss
+罧	sm
 罨	sd
 罩	su
 罪	sf
@@ -5604,7 +5598,6 @@ use_preset_vocabulary: false
 聪	ex
 聱	fe
 聿	vl
-肀	pp
 肃	vd
 肄	by
 肆	ay
@@ -5612,7 +5605,6 @@ use_preset_vocabulary: false
 肉	nr
 肋	ol
 肌	oj
-肏	rr
 肓	wo
 肖	xo
 肘	oc
@@ -5759,6 +5751,7 @@ use_preset_vocabulary: false
 膥	mr
 膦	ol
 膨	op
+膬	om
 膳	ok
 膺	go
 膻	oa
@@ -5836,7 +5829,6 @@ use_preset_vocabulary: false
 色	db
 艳	fb
 艴	fb
-艹	pp
 艺	cv
 艽	cj
 艾	cx
@@ -5844,6 +5836,7 @@ use_preset_vocabulary: false
 节	ce
 芃	cf
 芄	cw
+芈	al
 芈	ll
 芊	cq
 芋	cy
@@ -6244,7 +6237,6 @@ use_preset_vocabulary: false
 蘩	cx
 蘸	ch
 蘼	cf
-虍	pp
 虎	hj
 虏	hl
 虐	ha
@@ -6319,6 +6311,7 @@ use_preset_vocabulary: false
 蛩	gi
 蛭	it
 蛮	wi
+蛯	ib
 蛰	fi
 蛱	ij
 蛲	iw
@@ -6348,6 +6341,7 @@ use_preset_vocabulary: false
 蜡	io
 蜢	im
 蜣	iq
+蜣	iv
 蜥	ij
 蜩	ik
 蜮	ia
@@ -6443,7 +6437,6 @@ use_preset_vocabulary: false
 衡	ii
 衢	ii
 衣	wy
-衤	pp
 补	pb
 表	fy
 衩	pi
@@ -6537,7 +6530,6 @@ use_preset_vocabulary: false
 要	xn
 覃	xu
 覆	xw
-見	oe
 见	ke
 观	ye
 觃	kz
@@ -6585,7 +6577,6 @@ use_preset_vocabulary: false
 謇	bk
 警	ck
 譬	uk
-讠	pp
 计	yd
 计	yu
 订	yd
@@ -6739,10 +6730,10 @@ use_preset_vocabulary: false
 豁	bk
 豆	aa
 豇	ag
-豈	ea
 豉	ay
 豌	av
 豕	an
+豖	an
 豚	ou
 象	dn
 豢	ju
@@ -6762,12 +6753,10 @@ use_preset_vocabulary: false
 貌	ve
 貔	vb
 貘	vd
-貝	ob
-買	sb
-賣	ub
 贝	kr
 贞	lr
 负	dr
+贠	sr
 贡	gr
 财	kc
 责	fr
@@ -6881,6 +6870,7 @@ use_preset_vocabulary: false
 跑	zs
 跖	zu
 跗	zc
+跘	zb
 跚	zc
 跛	zy
 距	zj
@@ -6975,7 +6965,6 @@ use_preset_vocabulary: false
 躲	um
 躺	uk
 躾	ud
-車	al
 车	al
 轧	iv
 轨	ij
@@ -7041,7 +7030,7 @@ use_preset_vocabulary: false
 辫	lu
 辰	in
 辱	ic
-辶	pp
+辷	za
 边	zl
 込	zr
 辽	zl
@@ -7134,6 +7123,7 @@ use_preset_vocabulary: false
 遗	zr
 遘	zr
 遛	zt
+遝	zd
 遢	zx
 遣	zk
 遥	zf
@@ -7175,7 +7165,6 @@ use_preset_vocabulary: false
 邳	pe
 邴	be
 邵	de
-邶	ae
 邶	le
 邸	de
 邹	de
@@ -7324,7 +7313,6 @@ use_preset_vocabulary: false
 鏖	gj
 鐾	uj
 鑫	jj
-钅	pp
 钆	jv
 钇	jv
 针	ju
@@ -7557,7 +7545,6 @@ use_preset_vocabulary: false
 镵	jd
 镶	jy
 长	pn
-門	la
 閪	mx
 门	dv
 闩	ma
@@ -7609,7 +7596,6 @@ use_preset_vocabulary: false
 阙	mr
 阚	mw
 阜	pu
-阝	pp
 队	er
 阡	eq
 阪	ey
@@ -7676,7 +7662,6 @@ use_preset_vocabulary: false
 隶	vn
 隹	rf
 隺	df
-隻	ry
 隼	ru
 隽	rn
 难	yf
@@ -7714,6 +7699,7 @@ use_preset_vocabulary: false
 震	yn
 霈	yl
 霉	ym
+霋	yn
 霍	yf
 霎	yn
 霏	yf
@@ -7739,7 +7725,6 @@ use_preset_vocabulary: false
 靠	nf
 靡	gf
 面	aa
-靣	ak
 靥	im
 革	nl
 靬	gg
@@ -7785,7 +7770,6 @@ use_preset_vocabulary: false
 音	lo
 韵	ld
 韶	lk
-頁	ab
 页	ar
 顶	dr
 顷	br
@@ -7834,7 +7818,7 @@ use_preset_vocabulary: false
 颥	yr
 颦	vu
 颧	cr
-風	ji
+颪	xi
 风	jx
 飏	jp
 飐	jk
@@ -7855,7 +7839,6 @@ use_preset_vocabulary: false
 餮	dl
 饔	wl
 饕	kl
-饣	pp
 饥	uj
 饧	up
 饨	ut
@@ -7909,7 +7892,7 @@ use_preset_vocabulary: false
 馥	hw
 馧	hm
 馨	uo
-馬	ah
+馫	ho
 马	va
 驭	my
 驮	md
@@ -7983,6 +7966,7 @@ use_preset_vocabulary: false
 髂	gk
 髃	gy
 髅	gn
+髈	gf
 髋	ge
 髌	gb
 髎	gp
@@ -8007,7 +7991,6 @@ use_preset_vocabulary: false
 鬘	ay
 鬟	ay
 鬣	av
-鬥	ll
 鬯	xb
 鬲	al
 鬶	fl
@@ -8028,7 +8011,7 @@ use_preset_vocabulary: false
 魏	hg
 魑	gd
 魔	gg
-魚	dh
+鱻	aa
 鱼	da
 鱽	ad
 鱾	aj
@@ -8130,7 +8113,6 @@ use_preset_vocabulary: false
 鳢	aa
 鳣	aa
 鳤	ak
-鳥	ph
 鸟	pa
 鸟	wd
 鸠	jn
@@ -8217,7 +8199,6 @@ use_preset_vocabulary: false
 鹲	cn
 鹳	cn
 鹴	yn
-鹵	ld
 鹾	lg
 鹿	gb
 麀	gb
@@ -8233,7 +8214,6 @@ use_preset_vocabulary: false
 麝	gc
 麟	gl
 麤	gb
-麥	ux
 麦	fw
 麸	ff
 麹	fm
@@ -8265,7 +8245,6 @@ use_preset_vocabulary: false
 黹	yd
 黻	yd
 黼	yf
-黽	ke
 黾	kd
 鼋	ed
 鼍	kd
@@ -8290,7 +8269,6 @@ use_preset_vocabulary: false
 齁	zk
 齇	zq
 齉	zy
-齊	wa
 齐	wl
 齑	wl
 齿	vk
@@ -8307,7 +8285,6 @@ use_preset_vocabulary: false
 龊	vr
 龋	vy
 龌	vt
-龍	la
 龙	ud
 龚	lb
 龛	rl
@@ -8334,7 +8311,6 @@ use_preset_vocabulary: false
 𤧛	wj
 𤩽	wq
 𤫉	wy
-𥁕	km
 𥔲	uk
 𥕢	uo
 𥖨	um
@@ -8362,7 +8338,6 @@ use_preset_vocabulary: false
 𪟝	fl
 𪣻	tn
 𪤗	tp
-𪨊	ur
 𪨰	eq
 𪨶	ei
 𪩘	eq
@@ -8407,6 +8382,7 @@ use_preset_vocabulary: false
 𫞩	wl
 𫟅	sx
 𫟦	iz
+𫟷	jl
 𫟹	jb
 𫟼	jz
 𫠆	ur
