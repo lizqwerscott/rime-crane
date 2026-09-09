@@ -53,7 +53,7 @@ switches:
   # 只在「汉字 ↔ 英文/数字」边界加空格；不改 GPT-5.6、URL、邮箱、小数和标点。
   - name: auto_space
     states: [紧凑, 空格]
-    reset: 1
+    reset: 0
 
 
 # 输入引擎
