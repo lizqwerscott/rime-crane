@@ -119,12 +119,29 @@ http://www.keyboard-layout-editor.com/#/
 
 更新词库，手动覆盖 `xhup_dicts` `en_dcits` `opencc` `build` 四个文件夹。
 
-### 软链接安装（推荐）
+### 东风破（Plum）安装（推荐）
 
-克隆本仓库到本地（不要删除）。进入仓库目录，将本地目录创建软链接到 Rime 的配置目录：
+如果你已安装 [东风破 (rime/plum)](https://github.com/rime/plum)，可使用以下命令一键安装并自动注册方案列表：
 
-```
+* **完整安装**（小鹤音形 + 小鹤双拼 + 雾凇词库）：
+  ```bash
+  bash rime-install kchen0x/rime-crane
+  ```
+* **仅小鹤音形纯码表**（轻量模式，不含全拼大词典）：
+  ```bash
+  bash rime-install kchen0x/rime-crane:others/recipes/xhup
+  ```
+* **仅更新词库**：
+  ```bash
+  bash rime-install kchen0x/rime-crane:others/recipes/all_dicts
+  ```
+
+### 软链接安装
+
+克隆本仓库到本地，将本地目录创建软链接到 Rime 的配置目录：
+
+```bash
 rm -rf ~/Library/Rime && ln -sif `pwd` ~/Library/Rime
 ```
 
-这样的好处是，更新时只需要回到仓库目录运行 `git pull` 即可。
+更新时只需在仓库目录下执行 `git pull`。

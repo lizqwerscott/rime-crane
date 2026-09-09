@@ -80,3 +80,13 @@
    小鹤音形强依赖重码词序。`xhup.primary.dict.yaml` 必须严格保持官方原版 `order` 自然序，不得按字母或拼音重新排序。
 3. **快符与命令清洗**：
    清风输入法专用的 `$CC(...)`、`ime.pair(...)` 等脚本在导入 Rime 时已由 `sync_from_qingfeng.py` 自动清洗为纯净字符，快符前缀由脚本统一补齐分号 `;`。若有新增快符需在清洗规则中跟进。
+
+---
+
+## 4. 东风破 (Plum) 配方维护规范
+
+* **根目录 `recipe.yaml`**：供裸命令 `rime-install kchen0x/rime-crane` 默认调用，包含完整方案与词库安装，并在 `default.custom.yaml` 中注册 `xhup`、`double_pinyin_flypy` 和 `rime_ice`。
+* **`others/recipes/full.recipe.yaml`**：全量安装/更新配方。
+* **`others/recipes/xhup.recipe.yaml`**：纯小鹤音形轻量安装配方，只包含音形码表、快符及对应配置，不包含雾凇全拼大词库。
+* **`others/recipes/all_dicts.recipe.yaml`**：词库全量更新配方。
+* **若新增/删除词库文件**：务必同步在上述 `recipe.yaml` 的 `install_files` 列表中声明，防止 Plum 安装时遗漏深层目录文件。

@@ -1,10 +1,8 @@
 # encoding: utf-8
 ---
 recipe:
-  Rx: others/recipes/full
-  args:
   description: >-
-    完整安装、更新
+    凇鹤拼音（小鹤音形 + 小鹤双拼 + 雾凇词库）默认完整安装与更新
 install_files: >-
   cn_dicts/*.*
   en_dicts/*.*
