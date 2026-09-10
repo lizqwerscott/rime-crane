@@ -145,3 +145,44 @@ rm -rf ~/Library/Rime && ln -sif `pwd` ~/Library/Rime
 ```
 
 更新时只需在仓库目录下执行 `git pull`。
+
+## 进阶配置：小鹤音形 5 码起联想英文单词
+
+小鹤音形原生为**四码定长、顶字上屏**。若你在日常使用中有高频输入英文单词的需求，习惯手动按空格上屏，且不想频繁按 Shift 切换中英文或使用引导前缀：
+
+本项目提供了配套的 Lua 滤镜组件 `lua/xhup/english_len_filter.lua`，可实现**超过 4 码后自动由雾凇英文词库（`melt_eng`）接管并联想英文长词**，同时保证 4 码以内中文候选绝对纯净：
+
+* **1~4 码**：严格屏蔽外部英文候选，中文候选 100% 纯净（例如输入 `like` 仅出中文词「立刻」，输入 `appl` 空码时不提前跳出英文）；
+* **≥ 5 码**：音形中文码表自动断码，由雾凇英文词库瞬间接管，流畅联想补全长单词（例如输入 `apple`、`computer`、`application`）；
+* **1~4 字母短英文**：日常输入诸如 `git`、`app`、`cpu` 等短词时，打完直接按回车（`Enter`）即可将原始字母直接上屏。
+
+### 开启方式
+
+在你的 Rime 用户配置目录下新建或修改 `xhup.custom.yaml`（模板参见 `xhup.custom.template.yaml`），写入以下内容：
+
+```yaml
+patch:
+  # 1. 放开最大编码长度，关闭自动顶屏与空码清屏
+  speller/max_code_length: 32
+  speller/auto_select: false
+  speller/auto_clear: none
+
+  # 2. 挂载雾凇英文词库依赖与翻译器
+  schema/dependencies/+:
+    - melt_eng
+  engine/translators/+:
+    - table_translator@melt_eng
+
+  # 3. 启用长度过滤滤镜（输入 1~4 码不展示英文，5 码起放行）
+  engine/filters/@before 3: lua_filter@*xhup/english_len_filter
+
+  # 4. 配置英文词库联想补全与权重压制
+  melt_eng:
+    dictionary: melt_eng
+    enable_completion: true
+    enable_sentence: false
+    enable_user_dict: false
+    initial_quality: -2
+```
+
+保存后，在系统状态栏重新部署（Deploy）Rime 即可生效。
