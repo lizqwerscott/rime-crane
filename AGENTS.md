@@ -83,10 +83,7 @@
 
 ---
 
-## 4. 东风破 (Plum) 配方维护规范
+## 4. 安装与分发维护规范
 
-* **根目录 `recipe.yaml`**：供裸命令 `rime-install kchen0x/rime-crane` 默认调用，包含完整方案与词库安装，并在 `default.custom.yaml` 中注册 `xhup`、`double_pinyin_flypy` 和 `rime_ice`。
-* **`others/recipes/full.recipe.yaml`**：全量安装/更新配方。
-* **`others/recipes/xhup.recipe.yaml`**：纯小鹤音形轻量安装配方，只包含音形码表、快符及对应配置，不包含雾凇全拼大词库。
-* **`others/recipes/all_dicts.recipe.yaml`**：词库全量更新配方。
-* **若新增/删除词库文件**：务必同步在上述 `recipe.yaml` 的 `install_files` 列表中声明，防止 Plum 安装时遗漏深层目录文件。
+* **推荐主推分发形式**：以完整 Zip 压缩包覆盖及 Git 仓库直拉为主，确保跨平台 100% 完整保留 `cn_dicts/`、`en_dicts/`、`xhup_dicts/`、`lua/`、`opencc/` 等分层子目录结构。
+* **东风破 (Plum) 历史配方**：保留于 `recipe.yaml` 及 `others/recipes/` 中供特定环境调用。需注意：Windows 原生小狼毫自带的 `rime-install.bat` 内部写死了只拷贝根目录 `*.yaml`、`*.txt` 的硬编码限制，无法用于分层现代词库，因此对外公开文档不再主推东风破方式。

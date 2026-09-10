@@ -109,42 +109,48 @@ http://www.keyboard-layout-editor.com/#/
 ```
 
 > 注：维护人员或自动化 Agent 请参阅 [AGENTS.md](./AGENTS.md) 了解官方清风便携版码表逆向同步工作流与测试规范。
-## 使用说明
+## 安装与部署
 
-建议备份原先配置，清空配置目录。
+建议初次安装前备份原先配置，并清空输入法用户配置目录。
 
-### 手动安装
+### 方式一：下载 Zip 压缩包（推荐，跨平台最稳妥）
 
-将仓库所有文件复制粘贴进去就好了。
+1. **下载完整配置包**：
+   - 直接下载 [GitHub 仓库主分支 ZIP](https://github.com/kchen0x/rime-crane/archive/refs/heads/main.zip)（或下载最新 [Releases](https://github.com/kchen0x/rime-crane/releases) 中预打包的 `rime-crane.zip`）；
+2. **解压并覆盖**：
+   将压缩包内的全部文件及子文件夹（包含 `cn_dicts/`、`en_dicts/`、`xhup_dicts/`、`lua/`、`opencc/` 以及各类 `*.yaml` 方案配置）完整复制并粘贴到各平台对应的 Rime 用户配置目录下：
+   * **Windows（小狼毫 Weasel）**：
+     `%APPDATA%\Rime`（快捷操作：按 `Win + R` 键输入 `%APPDATA%\Rime` 回车，或从开始菜单点击打开【小狼毫】用户文件夹）
+   * **macOS（鼠须管 Squirrel）**：
+     `~/Library/Rime`（快捷操作：点击状态栏输入法图标 ›【用户设定...】）
+   * **Linux（Fcitx5-Rime）**：
+     `~/.local/share/fcitx5/rime`
+   * **Linux（iBus-Rime）**：
+     `~/.config/ibus/rime`
+3. **重新部署**：
+   在系统状态栏或开始菜单中点击 **【重新部署】（Deploy）**，稍等数秒构建完成即可开始使用。
 
-更新词库，手动覆盖 `xhup_dicts` `en_dcits` `opencc` `build` 四个文件夹。
+---
 
-### 东风破（Plum）安装（推荐）
+### 方式二：Git 克隆 / 软链接（开发者与日常更新推荐）
 
-如果你已安装 [东风破 (rime/plum)](https://github.com/rime/plum)，可使用以下命令一键安装并自动注册方案列表：
+适合熟悉终端命令、希望后续通过 `git pull` 一键同步更新的用户：
 
-* **完整安装**（小鹤音形 + 小鹤双拼 + 雾凇词库）：
+* **macOS（软链接方式）**：
   ```bash
-  bash rime-install kchen0x/rime-crane
+  # 克隆到本地任意目录（例如 ~/Code/rime-crane）
+  git clone https://github.com/kchen0x/rime-crane.git ~/Code/rime-crane
+  # 创建软链接至 Rime 用户目录
+  rm -rf ~/Library/Rime && ln -sif ~/Code/rime-crane ~/Library/Rime
   ```
-* **仅小鹤音形纯码表**（轻量模式，不含全拼大词典）：
+  *后续更新只需进入该仓库目录执行 `git pull` 并点击重新部署。*
+
+* **Windows（Git 克隆方式）**：
+  在 Git Bash 中直接将仓库克隆到用户配置目录：
   ```bash
-  bash rime-install kchen0x/rime-crane:others/recipes/xhup
+  git clone https://github.com/kchen0x/rime-crane.git "$APPDATA/Rime"
   ```
-* **仅更新词库**：
-  ```bash
-  bash rime-install kchen0x/rime-crane:others/recipes/all_dicts
-  ```
-
-### 软链接安装
-
-克隆本仓库到本地，将本地目录创建软链接到 Rime 的配置目录：
-
-```bash
-rm -rf ~/Library/Rime && ln -sif `pwd` ~/Library/Rime
-```
-
-更新时只需在仓库目录下执行 `git pull`。
+  *后续更新进入 `%APPDATA%\Rime` 执行 `git pull` 即可。*
 
 ## 进阶配置：小鹤音形 5 码起联想英文单词
 
