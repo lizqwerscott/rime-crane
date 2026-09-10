@@ -116,8 +116,8 @@ http://www.keyboard-layout-editor.com/#/
 ### 方式一：下载 Zip 压缩包（推荐，跨平台最稳妥）
 
 1. **下载完整配置包**：
-   - 直接下载 [GitHub 仓库主分支 ZIP](https://github.com/kchen0x/rime-crane/archive/refs/heads/main.zip)（或下载最新 [Releases](https://github.com/kchen0x/rime-crane/releases) 中预打包的 `rime-crane.zip`）；
-2. **解压并覆盖**：
+   - **直接下载**：[预打包安装包 rime-crane.zip（推荐）](https://github.com/kchen0x/rime-crane/releases/latest/download/rime-crane.zip)
+   - **备用下载**：[GitHub 仓库主分支 ZIP 源码包](https://github.com/kchen0x/rime-crane/archive/refs/heads/main.zip)
    将压缩包内的全部文件及子文件夹（包含 `cn_dicts/`、`en_dicts/`、`xhup_dicts/`、`lua/`、`opencc/` 以及各类 `*.yaml` 方案配置）完整复制并粘贴到各平台对应的 Rime 用户配置目录下：
    * **Windows（小狼毫 Weasel）**：
      `%APPDATA%\Rime`（快捷操作：按 `Win + R` 键输入 `%APPDATA%\Rime` 回车，或从开始菜单点击打开【小狼毫】用户文件夹）
