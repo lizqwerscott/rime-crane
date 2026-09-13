@@ -30,11 +30,11 @@ import_tables:
   - "xhup_dicts/xhup.full.code.words"   # 2.3 全码词（约500条）
 
   # --- ③ 初学模式扩展（全码字与生僻字，默认关闭，初学可开启）---
-  # - "xhup_dicts/xhup.full.code.chars"   # 全码字（已有简码，全码有其他字词，约1650条）
-  # - "xhup_dicts/xhup.rare.chars"        # 生僻字（约500条）
+  - "xhup_dicts/xhup.full.code.chars"   # 全码字（已有简码，全码有其他字词，约1650条）
+  # - "Xhup_dicts/xhup.rare.chars"        # 生僻字（约500条）
 
   # --- 可选附加库 ---
-  # - "xhup_dicts/xhup.secondary.simple"  # 二简次选（66个单字，备选）
+  - "xhup_dicts/xhup.secondary.simple"  # 二简次选（66个单字，备选）
   # - "xhup_dicts/xhup.symbols"           # 符号与部首字根
   # - "xhup_dicts/xhup.emoji"             # 斜杠引导表情
   # - "xhup_dicts/xhup.ok"                # ok引导两分/三分拆字拼字库（8.8万条）

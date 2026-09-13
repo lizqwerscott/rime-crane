@@ -58,6 +58,7 @@ engine:
     - lua_translator@*xhup/shortcut_translator  # Lua 直通车
     - reverse_lookup_translator@xhup_reverse
     - history_translator@history                # 重复上屏
+    - table_translator@custom_phrase    # 自定义短语 custom_phrase.txt
   filters:
     - simplifier
     - simplifier@simplification
